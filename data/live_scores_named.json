@@ -1,0 +1,42 @@
+[
+  {
+    "match_id": 19146890,
+    "match": "Celtic vs Kilmarnock",
+    "status": "FT",
+    "score": "5 - 1",
+    "league": "Premiership",
+    "home_team": "Celtic",
+    "away_team": "Kilmarnock",
+    "start_time": "2025-04-12 11:30:00"
+  },
+  {
+    "match_id": 19146891,
+    "match": "Dundee United vs St. Johnstone",
+    "status": "FT",
+    "score": "1 - 0",
+    "league": "Premiership",
+    "home_team": "Dundee United",
+    "away_team": "St. Johnstone",
+    "start_time": "2025-04-12 14:00:00"
+  },
+  {
+    "match_id": 19146893,
+    "match": "Motherwell vs Hearts",
+    "status": "FT",
+    "score": "0 - 0",
+    "league": "Premiership",
+    "home_team": "Motherwell",
+    "away_team": "Hearts",
+    "start_time": "2025-04-12 14:00:00"
+  },
+  {
+    "match_id": 19146894,
+    "match": "St. Mirren vs Ross County",
+    "status": "FT",
+    "score": "3 - 2",
+    "league": "Premiership",
+    "home_team": "St. Mirren",
+    "away_team": "Ross County",
+    "start_time": "2025-04-12 14:00:00"
+  }
+]

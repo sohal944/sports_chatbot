@@ -1,0 +1,58 @@
+[
+    {
+        "id": 271,
+        "sport_id": 1,
+        "country_id": 320,
+        "name": "Superliga",
+        "active": true,
+        "short_code": "DNK SL",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/271.png",
+        "type": "league",
+        "sub_type": "domestic",
+        "last_played_at": "2025-04-11 17:00:00",
+        "category": 2,
+        "has_jerseys": false
+    },
+    {
+        "id": 501,
+        "sport_id": 1,
+        "country_id": 1161,
+        "name": "Premiership",
+        "active": true,
+        "short_code": "SCO P",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/501.png",
+        "type": "league",
+        "sub_type": "domestic",
+        "last_played_at": "2025-04-12 14:00:00",
+        "category": 2,
+        "has_jerseys": false
+    },
+    {
+        "id": 513,
+        "sport_id": 1,
+        "country_id": 1161,
+        "name": "Premiership Play-Offs",
+        "active": true,
+        "short_code": "SCO P PO",
+        "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/1/513.png",
+        "type": "league",
+        "sub_type": "play-offs",
+        "last_played_at": "2014-05-25 14:30:00",
+        "category": 2,
+        "has_jerseys": false
+    },
+    {
+        "id": 1659,
+        "sport_id": 1,
+        "country_id": 320,
+        "name": "Superliga Play-offs",
+        "active": true,
+        "short_code": null,
+        "image_path": "https://cdn.sportmonks.com/images/soccer/leagues/27/1659.png",
+        "type": "league",
+        "sub_type": "play-offs",
+        "last_played_at": "2019-05-19 14:00:00",
+        "category": 3,
+        "has_jerseys": false
+    }
+]
