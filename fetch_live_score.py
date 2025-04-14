@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 
 API_TOKEN = "FlIUxPHZYsKk3a9sjHHJxUFKxwDu5TLGqZv9evvvGaljU9N9UNFaUc9ZdXFH"
 LEAGUE_FILE = "id_to_name/leagues.json"
@@ -69,8 +70,11 @@ if __name__ == "__main__":
     league_lookup = load_lookup(LEAGUE_FILE)
     team_lookup = load_lookup(TEAM_FILE)
 
-    live_scores = fetch_live_scores(API_TOKEN, league_lookup, team_lookup)
+    while True:
+        live_scores = fetch_live_scores(API_TOKEN, league_lookup, team_lookup)
 
-    with open("data/live_scores_named.json", "w") as f:
-        json.dump(live_scores, f, indent=2)
-    print("💾 Saved live scores to data/live_scores_named.json")
+        with open("final_data/live_score/live_scores_named.json", "w") as f:
+            json.dump(live_scores, f, indent=2)
+        print("💾 Saved live scores to data/live_scores_named.json")
+
+        time.sleep(60)  # Wait for 60 seconds before fetching again
