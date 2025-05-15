@@ -1,1 +1,2 @@
-# This repo will be update soon with the final codes.
+## Hello Viewers 👋, please visit to this updated repo for final codes.
+https://github.com/sohal944/soccerkick-chatbot
